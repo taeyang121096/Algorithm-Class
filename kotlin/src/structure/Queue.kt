@@ -2,7 +2,7 @@ package structure
 
 import java.util.*
 
-fun QueueSample() {
+fun queueSample() {
     // Create a queue of integers using LinkedList
     val numbers: Queue<Int> = LinkedList()
     numbers.offer(1)
@@ -33,5 +33,5 @@ fun QueueSample() {
 }
 
 fun main() {
-    QueueSample()
+    queueSample()
 }
